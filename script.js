@@ -7,6 +7,6 @@ function threeSum(arr, target) {
 		  sum = arr[i]+arr[i-1]+arr[i-2];
 		}
 	}
-	console.log(sum);
+	return sum;
 }
 module.exports = threeSum;
